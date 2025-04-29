@@ -1,7 +1,7 @@
 # Homomorphic Encryption ML Demo
 
 ## 1. Methodology
-![](https://mermaid.ink/img/pako:eNptkMtuwyAQRX9lxCpS7Vp-YOQ-pO5cN5UYBoNrI4QZYZyu_PeCnTYPdTkzw72cGbgB1_YgGL7gdrDCEVXnSJpiU1WNcH0gGpybHNghO5QX-YnqWuo8jc_l7pjVBwUHMRCqr_KEX4rOvdrWGdqLlOrTGKNtR51i92wQ03Avu1c5huabpFjCvT9YGcQlI8nIGWUge8QeLCUmrAX95aq4zaxW43vG6YdXWC_ZPXLubhn5N7NgXJ9Nfw2SRwpV_eNW6Uyqcl6LS1JMKeMSosBZZLQUmhEXhRJpKVLeLuEXMduS3w?type=png)
+![Methodology Diagram](https://mermaid.ink/img/pako:eNp1kc1uwyAQhF9l5VOkOnf8ANF9SJ1TT1UlDtjEVrAxMk7TKO-OcZrGP1Vyw-zON8tidhAGQ8gV7GE3BeuIXGSaXaNV25Qb4bsJqSeXsXdIgYRVn_KCjInVPE3P-jDO8YP8RN6i_Ko-8CuoWq939wfSocw56UdXsuiq6xR6MMhOutfdqxr98BYVqTAPR-csuo3CjLwm5REj2iA4UZkkqB91VV1XNdrlfcdpgldYL8WDYN0v56NadLQUS_hbYoV1hxJNoi9nZM6qMpNjvStSYtnm3XijtK8rQwLbsqm2TTM7wyHCFnyTguj9FUJ57_eBPIUQ2OsH-PH_7A?type=png)
 
 ## 2. Description
 - **Purpose**: Privacy-preserving salary prediction using homomorphic encryption
