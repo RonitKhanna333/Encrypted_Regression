@@ -1,7 +1,19 @@
 # Homomorphic Encryption ML Demo
 
 ## 1. Methodology
-![Methodology Diagram](https://mermaid.ink/img/pako:eNp1kc1uwyAQhF9l5VOkOnf8ANF9SJ1TT1UlDtjEVrAxMk7TKO-OcZrGP1Vyw-zON8tidhAGQ8gV7GE3BeuIXGSaXaNV25Qb4bsJqSeXsXdIgYRVn_KCjInVPE3P-jDO8YP8RN6i_Ko-8CuoWq939wfSocw56UdXsuiq6xR6MMhOutfdqxr98BYVqTAPR-csuo3CjLwm5REj2iA4UZkkqB91VV1XNdrlfcdpgldYL8WDYN0v56NadLQUS_hbYoV1hxJNoi9nZM6qMpNjvStSYtnm3XijtK8rQwLbsqm2TTM7wyHCFnyTguj9FUJ57_eBPIUQ2OsH-PH_7A?type=png)
+
+```mermaid
+graph LR
+    A[Customer Data] -->|Encrypt with Public Key| B(Encrypted Data)
+    B --> C[ML Service]
+    C -->|Apply Model on Encrypted Data| D(Encrypted Prediction)
+    D -->|Return to Customer| E[Customer]
+    E -->|Decrypt with Private Key| F(Final Prediction)
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+```
 
 ## 2. Description
 - **Purpose**: Privacy-preserving salary prediction using homomorphic encryption
